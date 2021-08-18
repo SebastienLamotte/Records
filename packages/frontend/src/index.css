@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #e7f8f8;
+}
+
+.has-error {
+  text-align: center;
+  color: #ed4337;
+}
+
+.centered {
+  margin: 1rem auto 1rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: teal;
+  color: white;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  border: 1px solid teal;
+  cursor: pointer;
+  font: inherit;
+  margin: 0rem 0 0rem 0.5rem;
+  text-align: center;
+}
+
+.btn-small {
+  padding: 0.25rem 0.5rem;
+}
+
+.btn-red {
+  background-color: #cc0000;
+  border: 1px solid #cc0000;
+}
+
+.btn-grey {
+  color: black;
+  background-color: white;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #11acac;
+  border-color: #11acac;
+}
+
+.btn-grey:hover,
+.btn-grey:active {
+  background-color: grey;
+  color: white;
+}
+
+.btn-red:hover,
+.btnRed:active {
+  background-color: #ed4337;
+  border-color: #ed4337;
+}
+
+.actions {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.actions .toggle {
+  /* margin-top: 1rem; */
+  background-color: transparent;
+  color: teal;
+  border: none;
+  padding: 0.15rem 1.5rem;
+}
+
+.actions .toggle:hover {
+  background-color: transparent;
+  color: #11acac;
+  cursor: pointer;
+}
+
+.sorting {
+  padding-bottom: 1rem;
+  border-bottom: 3px solid #b2d4d4;
+  margin-bottom: 2rem;
+}
+
+.sorting button {
+  font: inherit;
+  color: teal;
+  border: 1px solid teal;
+  background-color: transparent;
+  border-radius: 4px;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+}
+
+.sorting button:hover {
+  background-color: #c2fafa;
+}
+
+.description {
+  white-space: pre-wrap;
+}

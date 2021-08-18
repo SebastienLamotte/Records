@@ -1,0 +1,27 @@
+.control {
+  margin-bottom: 0.5rem;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input,
+textarea {
+  font: inherit;
+  font-size: 1.25rem;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  border: 1px solid #c1d1d1;
+  width: 100%;
+  text-align: left;
+  padding: 0.25rem;
+}
+
+input:focus,
+textarea:focus {
+  background-color: #cbf8f8;
+  outline-color: teal;
+}

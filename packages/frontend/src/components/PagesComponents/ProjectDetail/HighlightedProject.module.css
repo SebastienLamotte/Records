@@ -1,0 +1,28 @@
+.highlighted {
+  background-color: #162b2b;
+  color: white;
+  border-radius: 6px;
+  padding: 2rem;
+  margin: 1rem auto 2rem;
+  width: 95%;
+  max-width: 40rem;
+  word-wrap: break-word;
+}
+
+.highlighted h1 {
+  margin: 0;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.highlighted .description {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.highlighted .participants {
+  font-style: italic;
+  font-size: 1rem;
+  text-align: right;
+  color: #a1e0e0;
+}

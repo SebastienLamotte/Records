@@ -1,0 +1,10 @@
+{
+  "name": "@records/common",
+  "version": "1.0.0",
+  "main": "validationSchemas.js",
+  "license": "MIT",
+  "dependencies": {
+    "yup": "^0.32.9",
+    "moment": "^2.29.1"
+  }
+}

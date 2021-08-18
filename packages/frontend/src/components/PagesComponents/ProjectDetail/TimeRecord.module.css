@@ -1,0 +1,24 @@
+.time-record {
+  margin: 1rem 0;
+  color: #4a5555;
+  font-size: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid teal;
+}
+
+.time-record h1 {
+  font-size: 1.2rem;
+}
+
+.time-record button {
+  float: right;
+}
+
+.is-author {
+  border-bottom: 4px solid teal;
+}
+
+.is-author-small {
+  font-weight: bold;
+  font-size: 1rem;
+}

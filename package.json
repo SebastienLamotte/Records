@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "start": "cd packages/backend && yarn start",
+    "start-dev": "concurrently \"cd packages/backend && yarn run dev\" \"cd packages/frontend && yarn start\" ",
+    "heroku-postbuild": "cd packages/frontend && yarn build"
+  },
+  "dependencies": {
+    "concurrently": "^6.2.0"
+  }
+}

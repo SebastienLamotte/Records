@@ -1,0 +1,21 @@
+.remove {
+  width: 55%;
+  margin: auto;
+}
+
+.remove li {
+  list-style-type: none;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.remove li input,
+.remove li label {
+  display: inline;
+  width: auto;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+}

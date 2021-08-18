@@ -1,0 +1,18 @@
+.timerBtn {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background: #11acac;
+}
+
+.timerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.timerContainer button,
+.timerContainer h1 {
+  margin-bottom: 0.9rem;
+}
