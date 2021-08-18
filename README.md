@@ -17,9 +17,9 @@ Using yarn:
 
 Test it on https://records-lamotte.herokuapp.com/
 
-Here is the list of the environment variables:
+## Environment Variables
 
-## Backend
+### Backend
 
 - PORT
 - MONGO_URL
@@ -27,6 +27,6 @@ Here is the list of the environment variables:
 - REFRESH_TOKEN_SECRET  
 - REFRESH_TOKEN_NAME
 
-## Frontend
+### Frontend
 
 - REACT_APP_URL_BACKEND
