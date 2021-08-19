@@ -9,11 +9,11 @@ In the root folder, install all the dependencies of the project and then start t
 Using npm:
     
     npm i
-    npm start
+    npm run start-dev
 Using yarn:
 
     yarn
-    yarn start
+    yarn start-dev
 
 Test it on https://records-lamotte.herokuapp.com/
 
